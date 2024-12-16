@@ -1,0 +1,39 @@
+{
+  "month": "2024-11",
+  "expenses": [
+    {
+      "category": "Rent",
+      "amount": 80000,
+      "currency": "JPY"
+    },
+    {
+      "category": "Food",
+      "amount": 30000,
+      "currency": "JPY"
+    },
+    {
+      "category": "Transportation",
+      "amount": 10000,
+      "currency": "JPY"
+    },
+    {
+      "category": "Utilities",
+      "amount": 15000,
+      "currency": "JPY"
+    },
+    {
+      "category": "Entertainment",
+      "amount": 5000,
+      "currency": "JPY"
+    },
+    {
+      "category": "Miscellaneous",
+      "amount": 7000,
+      "currency": "JPY"
+    }
+  ],
+  "total": {
+      "amount": 147000,
+      "currency": "JPY"
+  }
+}
