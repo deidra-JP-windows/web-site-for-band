@@ -15,6 +15,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/web-site-for-band" element={<Home />}/>
           <Route path="/info" element={<Info />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>

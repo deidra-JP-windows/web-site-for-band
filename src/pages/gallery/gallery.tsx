@@ -6,19 +6,19 @@ import { Outlet } from 'react-router-dom';
 
 const Gallery: React.FC = () => {
   const imagePaths = [
-    'picture/1.png',
-    'picture/2.png',
-    'picture/3.png',
-    'picture/4.png',
-    'picture/5.png',
-    'picture/6.png',
-    'picture/7.png',
-    'picture/8.png',
-    'picture/9.png',
-    'picture/10.png',
-    'picture/11.png',
-    'picture/12.png',
-    'picture/13.png',
+    'web-site-for-band/picture/1.png',
+    'web-site-for-band/picture/2.png',
+    'web-site-for-band/picture/3.png',
+    'web-site-for-band/picture/4.png',
+    'web-site-for-band/picture/5.png',
+    'web-site-for-band/picture/6.png',
+    'web-site-for-band/picture/7.png',
+    'web-site-for-band/picture/8.png',
+    'web-site-for-band/picture/9.png',
+    'web-site-for-band/picture/10.png',
+    'web-site-for-band/picture/11.png',
+    'web-site-for-band/picture/12.png',
+    'web-site-for-band/picture/13.png',
   ];
   
   const getRandomImage = (): string => {
