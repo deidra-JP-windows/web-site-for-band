@@ -24,6 +24,13 @@ function analyzeCostTrends(data) {
       console.log(`Cost Difference from Previous Month: ${costDifference} ${monthData.total.currency} (${trend})`);
     }
     console.log('---');
+    // コストの割合を計算
+    const costShares = monthData.items.map(item => {
+      return {
+        name: item.name,
+        share: (item.amount / monthData.total.amount) * 100
+      };
+    });
   });
 }
   

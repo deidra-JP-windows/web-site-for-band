@@ -1,26 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/chutaman.png';
+import backGround from './assets/riftenhoneysidelogo350riften1000.png';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
+import Home from './pages/home/home';
+import Gallery from './pages/gallery/gallery';
+import Info from './pages/info/info';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/info" element={<Info />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+        <header className="App-header">
+          <br />
+          <br />
+          <img src={logo} className="App-logo" alt="logo" />
+          <br />
+          <br />
+          <div className="App-link-container">
+            <Link to="/" className=".App-link-site">
+              Home
+            </Link>
+              /  
+            <Link to="/info" className=".App-link-site">
+              Info
+            </Link>
+              /  
+            <Link to="/gallery" className=".App-link-site">
+              Gallery
+            </Link>
+          </div>
+          <br />
+        </header>
+      </div>
+    </Router>
   );
 }
+
 
 export default App;
