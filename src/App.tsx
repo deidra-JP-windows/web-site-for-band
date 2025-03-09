@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/home/home';
 import Gallery from './pages/gallery/gallery';
 import Info from './pages/info/info';
+import Music from './pages/music/music';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/web-site-for-band" element={<Home />}/>
           <Route path="/info" element={<Info />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/music" element={<Music />} />
         </Routes>
         <header className="App-header">
           <br />
