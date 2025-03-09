@@ -39,6 +39,10 @@ function App() {
             <Link to="/gallery" className=".App-link-site">
               Gallery
             </Link>
+              /
+            <Link to="/music" className=".App-link-site">
+              Music
+            </Link>
           </div>
           <br />
         </header>
