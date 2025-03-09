@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/web-site-for-band/static/css/main.1a261587.css",
-    "main.js": "/web-site-for-band/static/js/main.2ee50e1e.js",
+    "main.js": "/web-site-for-band/static/js/main.a8f3f9dc.js",
     "static/js/787.54d44006.chunk.js": "/web-site-for-band/static/js/787.54d44006.chunk.js",
     "static/media/chutaman.png": "/web-site-for-band/static/media/chutaman.9da72bc352007ebbcfd2.png",
     "static/media/riftenhoneysidelogo350riften1000.png": "/web-site-for-band/static/media/riftenhoneysidelogo350riften1000.5972c9c124eb05c8a4c4.png",
     "index.html": "/web-site-for-band/index.html",
     "main.1a261587.css.map": "/web-site-for-band/static/css/main.1a261587.css.map",
-    "main.2ee50e1e.js.map": "/web-site-for-band/static/js/main.2ee50e1e.js.map",
+    "main.a8f3f9dc.js.map": "/web-site-for-band/static/js/main.a8f3f9dc.js.map",
     "787.54d44006.chunk.js.map": "/web-site-for-band/static/js/787.54d44006.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a261587.css",
-    "static/js/main.2ee50e1e.js"
+    "static/js/main.a8f3f9dc.js"
   ]
 }
