@@ -58,11 +58,6 @@ const Music: React.FC = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   )
 }

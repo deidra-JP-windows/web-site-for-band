@@ -9,7 +9,6 @@ import Gallery from './pages/gallery/gallery';
 import Info from './pages/info/info';
 import Music from './pages/music/music';
 
-
 function App() {
   return (
     <Router>
