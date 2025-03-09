@@ -4,12 +4,12 @@ import { Outlet } from 'react-router-dom';
 
 const Music: React.FC = () => {
   const videoIds = [
-    'D50L4EeBHOs&list=PLczTtyhBR9Oi3rdAN2xFqafXsXTnDmBHZ&index=1',
-    'ukYEgbe2QPw&list=PLwt9h6ffqStO8hlaLDDGGNckvJ4x8PjpZ&index=1',
-    'p-o_bMkzOW0&list=PLyepBoCR-qv24WQaZthmv4cRAcElHA9_P&index=1',
-    'oJdIrN22iqY&list=PLsZgDDPg0rB8WnJqykyPkrXYqgmpMFYBU&index=1',
-    'fluDA4CodnM&list=PLPUygacvheSO0Hyj5Rh6BDZGhx2aOBOUb&index=1',
-    'EBewFovvi2s&list=PLczTtyhBR9OigAddSk6pv3ClsVoTAJOZ1&index=1',
+    'PLczTtyhBR9Oi3rdAN2xFqafXsXTnDmBHZ',
+    'PLwt9h6ffqStO8hlaLDDGGNckvJ4x8PjpZ',
+    'PLyepBoCR-qv24WQaZthmv4cRAcElHA9_P',
+    'PLsZgDDPg0rB8WnJqykyPkrXYqgmpMFYBU',
+    'PLPUygacvheSO0Hyj5Rh6BDZGhx2aOBOUb',
+    'PLczTtyhBR9OigAddSk6pv3ClsVoTAJOZ1',
   ];
 
   const getRandomVideoId = (): string => {
@@ -41,7 +41,7 @@ const Music: React.FC = () => {
             <iframe
               width="560"
               height="315"
-              src={`https://www.youtube.com/watch?v=${videoId}`}
+              src={`https://www.youtube.com/embed/videoseries?list=${videoId}`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
