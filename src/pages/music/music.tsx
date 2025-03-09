@@ -53,11 +53,6 @@ const Music: React.FC = () => {
       </div>
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   )
 }
