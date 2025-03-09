@@ -26,19 +26,19 @@ function App() {
           <br />
           <br />
           <div className="App-link-container">
-            <Link to="/web-site-for-band" className=".App-link-site">
+            <Link to="/" className=".App-link-site">
               Home
             </Link>
               /  
-            <Link to="/web-site-for-band/info" className=".App-link-site">
+            <Link to="/info" className=".App-link-site">
               Info
             </Link>
               /  
-            <Link to="/web-site-for-band/gallery" className=".App-link-site">
+            <Link to="/gallery" className=".App-link-site">
               Gallery
             </Link>
               /
-            <Link to="/web-site-for-band/music" className=".App-link-site">
+            <Link to="/music" className=".App-link-site">
               Music
             </Link>
           </div>
