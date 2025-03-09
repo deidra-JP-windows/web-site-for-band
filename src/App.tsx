@@ -14,11 +14,10 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />}/>
           <Route path="/web-site-for-band" element={<Home />}/>
-          <Route path="/info" element={<Info />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/music" element={<Music />} />
+          <Route path="/web-site-for-band/info" element={<Info />} />
+          <Route path="/web-site-for-band/gallery" element={<Gallery />} />
+          <Route path="/web-site-for-band/music" element={<Music />} />
         </Routes>
         <header className="App-header">
           <br />
